@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+/* frontend/src/App.css */
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change color on hover (Bootstrap primary color) */
+}
+
+.navbar-brand:hover {
+  opacity: 0.8; /* Slightly reduce opacity on hover for a subtle effect */
+  transition: opacity 0.3s ease;
+}
