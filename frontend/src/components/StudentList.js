@@ -216,7 +216,7 @@ export default StudentList;/students');
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          await axios.delete(`https://studentsystem-frontend.onrender.com/students/${id}`);
+          await axios.delete(`https://studentsystem-backend.onrender.com/students/${id}`);
           fetchStudents();
           Swal.fire('Deleted!', 'Student has been deleted.', 'success');
         } catch (error) {
