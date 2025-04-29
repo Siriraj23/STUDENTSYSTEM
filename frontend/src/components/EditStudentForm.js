@@ -23,7 +23,7 @@ import React, { useState, useEffect } from 'react';
 
           const fetchStudent = async () => {
             try {
-              const response = await axios.get(`http://localhost:5000/students/${id}`);
+              const response = await axios.get(`https://studentsystem-backend.onrender.com/students/${id}`);
               setStudent(response.data);
             } catch (error) {
               console.error('Error fetching student:', error);
