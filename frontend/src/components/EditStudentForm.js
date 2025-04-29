@@ -38,7 +38,7 @@ import React, { useState, useEffect } from 'react';
           const handleSubmit = async (e) => {
             e.preventDefault();
             try {
-              await axios.put(`http://localhost:5000/students/${id}`, student);
+              await axios.put(`https://studentsystem-backend.onrender.com/students/${id}`, student);
               Swal.fire('Success!', 'Student updated successfully!', 'success');
               navigate('/students');
             } catch (error) {
