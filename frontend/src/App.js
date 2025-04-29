@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import StudentList from './components/StudentList';
 import AddStudentForm from './components/AddStudentForm';
 import EditStudentForm from './components/EditStudentForm';
