@@ -3,13 +3,49 @@
   justify-content: center;
   align-items: center;
   height: 80vh;
+  background-color: #f0f8ff; /* Added a light background color */
 }
 
 .home-card {
   width: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px; /* Added rounded corners for a softer look */
+  padding: 20px; /* Added some padding inside the card */
+  background-color: #fff; /* Ensuring the card has a white background */
 }
 
 .home-buttons {
   margin-top: 20px;
+  text-align: center; /* Horizontally centers the content within the buttons container */
+}
+
+.home-buttons button {
+  background-color: #4CAF50; /* Example button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px; /* Adds some horizontal spacing between buttons */
+}
+
+.home-buttons button:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+/* You can add more button styles for different looks */
+.home-buttons button.primary {
+  background-color: #007bff;
+}
+
+.home-buttons button.primary:hover {
+  background-color: #0056b3;
+}
+
+.home-buttons button.secondary {
+  background-color: #dc3545;
+}
+
+.home-buttons button.secondary:hover {
+  background-color: #c82333;
 }
